@@ -1,8 +1,29 @@
 ---
-title: Quickstart - Request a quota increase in the Azure portal using Capacity Recommender 
+title: How-to guides - Request a quota increase in the Azure portal using Capacity Recommender 
 description: This quickstart shows you how to request a quota increase in the Azure Portal
 ms.date: 01/23/2023
 ms.topic: how-to
 ---
 
-# Quickstart: Request a quota increase in the Azure portal
+# How-to guide: Request a quota increase in the Azure portal using Capacity Recommender 
+
+Get started with Azure Quotas by using Capacity Recommender in the Azure portal, to request a quota increase.
+
+For more information about quotas, see [Quotas overview](quotas-overview.md).
+
+## Prerequisites
+
+- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
+## Request a quota increase
+
+You can submit a request for a quota increase directly from My quotas. Follow the steps below to request an increase for a quota. For this example, you can select any adjustable quota in your subscription.
+
+1. Sign in to the Azure portal, and select **Quotas** located under Azure Services. 
+2. Select **My Quotas** on the left pane. 
+
+
+
+
+
+---
