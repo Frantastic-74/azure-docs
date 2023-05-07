@@ -1,0 +1,37 @@
+---
+title: Alert Rules and Monitoring 
+description: Understand how alert rules and monitoring work for Azure Quota
+ms.date: 05/08/23
+ms.topic: Overview
+---
+# What are quot alerts and rules? 
+
+Cloud quota alerts and rules are mechanisms created and used by Azure customers to manage their cloud resources. 
+
+Quota rules are created, by configuring specific usage scenarios such as 80 capacity, set at 15 minute intervals. 
+For example, a cloud service provider may set up a quota rule that limits the amount of storage a customer can use to 10 GB per month. 
+If the customer attempts to exceed this limit, the provider may either prevent the customer from using additional storage or charge additional fees for usage beyond the allocated limit. In addition to storage, quota rules can be applied to other resources such as computing power, network bandwidth, and the number of API calls made by the customer.
+
+## How do alerts work 
+When the rule is created, it generates an alert. 
+This means when your quota hits the rule's settings, you will receive an a fire alert with your <quotaname> is at 80% usage capacity for example. 
+
+
+
+## Monitoring alert rules 
+Cloud alert rule monitoring typically works by using automated monitoring tools and services that track usage metrics and thresholds specified in the alert rules. These metrics can include resource consumption, latency, error rates, and other indicators of performance and usage.
+
+When a metric or set of metrics breaches a threshold defined in an alert rule, the monitoring system triggers an alert, which is then sent to the appropriate individuals or teams for action. The alert can be delivered through various means, such as email, SMS, or push notification to a mobile app, and can include relevant context and details about the metric that triggered the alert.
+
+Cloud alert rule monitoring can be set up to monitor various aspects of cloud infrastructure, such as compute instances, storage volumes, network traffic, and database queries. Monitoring can be done in near real-time, with alerts being sent out within seconds of a threshold being crossed.
+
+Additionally, some cloud service providers offer customizable dashboards and visualizations that allow customers to monitor their resources and alerts in real-time, providing them with insights into the health and performance of their cloud environment.
+
+Overall, cloud alert rule monitoring is an essential part of managing cloud infrastructure, providing customers with timely alerts and insights into usage trends and anomalies, allowing them to take proactive steps to optimize their resources and avoid potential issues.
+
+Cloud quota alerts and rules help customers monitor their resource usage and avoid unexpected charges, 
+while also allowing cloud service providers to manage the allocation of resources efficiently.
+
+
+
+
