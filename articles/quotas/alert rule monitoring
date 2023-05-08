@@ -9,7 +9,7 @@ ms.topic: Overview
 
 This document provides a conceptual overview about alert rules and monitoring for quotas used in the [Azure portal](https://ms.portal.azure.com/). 
 
-Azure quota alert rules are policies customers can configure to be notified and monitor when they are approaching or exceeding their resource usage limits. 
+Azure quota alert rules are policies customers can configure to be notified and monitor when they are approaching or exceeding their resource  limits. 
 
 ## Alert rules 
 
