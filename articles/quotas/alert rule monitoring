@@ -1,37 +1,35 @@
 
----
-title: Alert Rule Monitoring 
+-title: Alert Rule Monitoring 
 description: Understand how alert rules and monitoring work for Azure Quota
 ms.date: 05/08/23
 ms.topic: Overview 
 ---
 # Alert Rule Monitoring 
 
-Azure alert rules are policies customers can configure to be notified when they are approaching or exceeding their resource usage limits.  
-This document provides a conceptual overview about alert rules and monitoring used in Azure quota. 
+This document provides a conceptual overview about alert rules and monitoring for quotas used in the Azure portal. 
+
+Azure quota alert rules are policies customers can configure to be notified and monitor when they are approaching or exceeding their resource usage limits. 
 
 ## Alert rules 
 
 Azure quota alerts rules are mechanisms that are created and used by Azure customers to manage their cloud resources, such as storage capacity, and other indicators of performance and usage. 
-Alert rules are created, by configuring specific usage scenarios such a set capacity usage of 80%, with frequency of checking every 15 minutes, and conditions of firing a severity-level alert when this occurs.
+
+Alert rules are created, by configuring specific usage scenarios such a set capacity usage of 80%, with frequency of checking every 15 minutes, with conditions to fire a set severity-level alert when this occurs.
+
 When a customer's usage of a particular resource exceeds or approaches the defined threshold, an alert is generated, based on the defined parameters to indicate that the customer is nearing their quota limit.
 
 ## Monitor alert rules 
 
-Azure alert rule monitoring typically works by using automated monitoring tools and services that track usage metrics and thresholds specified in the alert rules, set by the customer. These metrics can include resource consumption, error rates, and other indicators of performance and usage.
-When a metric reaches the threshold defined in an alert rule, such as 80% usage capacity, the monitoring system triggers an alert, which is then sent to the appropriate individuals or teams for action. The alert can be delivered by email, SMS, or via a mobile app push with details about the metrics that triggered the alert.
-Monitoring can be done in real-time, with alerts being sent out within seconds of a threshold and are available on the Azure quota dashboard.  
-Overall, Azure quota alert rule monitoring is essential to manage cloud infrastructure, and provides customers with timely alerts and insights into usage trends and anomalies, which allows them to take proactive steps to optimize their resources and avoid or resolve potential issues. 
-For more information access the Azure Portal and follow the UI/UX or review How to create alert rules how-to documentation. 
+Azure quota alert rule monitoring works by using automated monitoring tools that track usage resource metrics and thresholds specified in the alert rules, that the customer creates based on Azure specifications. These metrics can include usage consumption error rates, and other indicators of performance and usage.
 
-## Next Steps  
+When a metric reaches the threshold defined in an alert rule, such as 80% usage capacity, the monitoring system triggers an alert, which is then sent to the owner or contributor-level users and teams for action. The alert can be delivered by email, SMS, or mobile app with details about the metrics that triggered the alert. Customers can monitor their quotas in real time and can view quota details on Azure quota dashboard. 
+
+Overall, Azure quota alert rule monitoring is essential to manage cloud infrastructure and provides customers with timely alerts and insights into usage trends and anomalies, which allows them to take proactive steps to optimize their resources and avoid or resolve potential issues. 
+
+For more information log into your Azure Portal and follow the UI/UX process for alert rule monitoring or review How to create alert rules how-to documentation <add github xref>. 
+
+## Next Steps 
 Create an alert rule
 Edit, delete, or disable an alert rule 
 Alert Rule Logging 
-
-
-
-
-
-
 
