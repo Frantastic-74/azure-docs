@@ -4,7 +4,8 @@ description: Understand how alert rules and monitoring work for Azure Quota
 ms.date: 05/08/23
 ms.topic: Overview 
 ---
-# Alert Rule Monitoring 
+
+# Alert Rule Monitoring   
 
 This document provides a conceptual overview about alert rules and monitoring for quotas used in the [Azure portal](https://ms.portal.azure.com/). 
 
