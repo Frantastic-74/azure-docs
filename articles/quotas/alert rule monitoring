@@ -1,41 +1,35 @@
+
 ---
-title: Alert Rules and Monitoring 
+title: Alert Rule Monitoring 
 description: Understand how alert rules and monitoring work for Azure Quota
 ms.date: 05/08/23
-ms.topic: Overview
+ms.topic: Overview 
 ---
-# Alert Rules and Monitoring 
-Cloud quota alerts and rules help customers monitor their resource usage and avoid unexpected charges, 
-while also allowing cloud service providers to manage the allocation of resources efficiently. 
-This document provides a conceptual overview about alert rules and monitoring are creating and used in Azure quota. 
+# Alert Rule Monitoring 
+
+Azure alert rules are policies customers can configure to be notified when they are approaching or exceeding their resource usage limits.  
+This document provides a conceptual overview about alert rules and monitoring used in Azure quota. 
 
 ## Alert rules 
 
-Azure quota alerts rules are mechanisms that are created and used by Azure customers to manage their cloud resources, such as storage capacity, 
-and other indicators of performance and usage.
+Azure quota alerts rules are mechanisms that are created and used by Azure customers to manage their cloud resources, such as storage capacity, and other indicators of performance and usage. 
+Alert rules are created, by configuring specific usage scenarios such a set capacity usage of 80%, with frequency of checking every 15 minutes, and conditions of firing a severity-level alert when this occurs.
+When a customer's usage of a particular resource exceeds or approaches the defined threshold, an alert is generated, based on the defined parameters to indicate that the customer is nearing their quota limit.
 
-Alert rules are created, by configuring specific usage scenarios such a set capacity usage of 80%, with frequency of checking every 15 minutes, and conditions of firing a severity-level alert when this occures. 
-80 capacity, set at 15 minute intervals. 
-In addition to storage, quota rules can be applied to other resources such as computing power, network bandwidth, and the number of API calls made
-by the customer.
+## Monitor alert rules 
 
-When the rule is created, it generates an alert. 
-This means when your quota hits the rule's settings, you will receive an a fire alert with your <quotaname> is at 80% usage capacity for example. 
+Azure alert rule monitoring typically works by using automated monitoring tools and services that track usage metrics and thresholds specified in the alert rules, set by the customer. These metrics can include resource consumption, error rates, and other indicators of performance and usage.
+When a metric reaches the threshold defined in an alert rule, such as 80% usage capacity, the monitoring system triggers an alert, which is then sent to the appropriate individuals or teams for action. The alert can be delivered by email, SMS, or via a mobile app push with details about the metrics that triggered the alert.
+Monitoring can be done in real-time, with alerts being sent out within seconds of a threshold and are available on the Azure quota dashboard.  
+Overall, Azure quota alert rule monitoring is essential to manage cloud infrastructure, and provides customers with timely alerts and insights into usage trends and anomalies, which allows them to take proactive steps to optimize their resources and avoid or resolve potential issues. 
+For more information access the Azure Portal and follow the UI/UX or review How to create alert rules how-to documentation. 
 
-## Monitoring alert rules 
-Azure alert rule monitoring typically works by using automated monitoring tools and services that track usage metrics and thresholds specified in the
-alert rules, that are set by the cuswtomer. These metrics can include resource consumption, latency, error rates, and other indicators of performance and usage.
+## Next Steps  
+Create an alert rule
+Edit, delete, or disable an alert rule 
+Alert Rule Logging 
 
-When a metric reaches the threshold defined in an alert rule, such as 80% usage capacity, the monitoring system triggers an alert,
-which is then sent to the appropriate individuals or teams for action. The alert can be delivered by email, SMS,
-or push notification to a mobile app, and include details about the metric that triggered the alert.
 
-Monitoring can be done in  real-time, with alerts being sent out within seconds of a threshold and are avaialbe on the Azure quota dashboard.  
-
-Overall, Azure quota alert rule monitoring is essential to manage cloud infrastructure, and provides customers with timely alerts and insights into 
-usage trends and anomalies, which allows them to take proactive steps to optimize their resources and avoid or resolve potentioal issues. 
-
-## Create an Alert 
 
 
 
